@@ -27,19 +27,13 @@
       "@types"
     ]
   },
-  "gitPolicy": {
-    "allowedEmailRegExps": [
-      "[^@]+@163\\.com"
-    ],
-    "sampleEmail": "mrexample@163.com"
-  },
+
   "projects": [
     {
       "packageName": "@rom/build-tools",
       "projectFolder": "tools/build",
       "reviewCategory": "tools",
-      "shouldPublish": true,
-      "versionPolicyName": "prerelease-monorepo-lockStep"
+      "shouldPublish": true
     }
   ]
 }
